@@ -31,7 +31,6 @@ MelakaPay
                         <p>Mengapa Perlu Mendaftar?</p>
                         <input type="submit" name="" value="Login"/><br/>
                     </div>
-                    
                     <div class="col-md-9 register-right">
 
                         <div class="tab-content" id="myTabContent">
@@ -130,7 +129,7 @@ MelakaPay
                                         
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="submit" class="btnRegister"  value="Register"/>
+                                        <a href="/register2"><input type="submit" class="btnRegister"  value="Continue"/></a>
                                     </div>
                                 </div>
                             </div>
