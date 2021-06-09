@@ -211,6 +211,13 @@
 /* End of registrtation */
 
 /* Login Page */
+.login-page{
+  background-image: linear-gradient(to bottom, rgba(64, 78, 156, 0.52), rgba(117, 19, 93, 0.73)), url('https://lp-cms-production.imgix.net/2019-06/073a9bccbdeabbab8b0d853f96d30e2f-christ-church.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+}
 
 .container-login{
   height: 100%;
@@ -248,7 +255,7 @@
   }
   
   .input-group-prepend span{
-  width: 50px;
+  /* width: 50px; */
   background-color: #FFC312;
   color: black;
   border:0 !important;
