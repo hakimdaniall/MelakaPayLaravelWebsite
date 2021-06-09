@@ -9,7 +9,7 @@ MelakaPay
 @include('header')
 
 
-</head>
+
 <body>
     
 <!------ Include the above in your HEAD tag ---------->
@@ -29,7 +29,7 @@ MelakaPay
                         <img src="./assets/img/registration.svg" alt=""/>
                         <h3>Registration</h3>
                         <p>Mengapa Perlu Mendaftar?</p>
-                        <input type="submit" name="" value="Login"/><br/>
+                        <a href="/login"><input type="submit" name="" value="Login"/></a><br/>
                     </div>
                     <div class="col-md-9 register-right">
 
