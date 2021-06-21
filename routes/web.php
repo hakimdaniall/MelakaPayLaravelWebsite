@@ -29,3 +29,19 @@ Route::get('/register2', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
+Route::get('/faqs', function () {
+    return view('faqs');
+});
+
+Route::get('/ptngmelaka', function () {
+    return view('agencies.ptngmelaka');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/agencies', function () {
+    return view('agencies');
+});
