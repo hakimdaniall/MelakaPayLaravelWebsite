@@ -600,7 +600,7 @@
   padding: 140px 0 100px 0;
 }
 
-#heroagencies::before {
+/* #heroagencies::before {
   content: '';
   position: absolute;
   right: -100%;
@@ -610,7 +610,7 @@
   z-index: -1;
   background-color: #e8ecf5;
   transform: skewY(150deg);
-}
+} */
 
 #heroagencies h1 {
   margin: 0 0 10px 0;

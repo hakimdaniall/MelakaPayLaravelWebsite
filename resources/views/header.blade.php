@@ -16,8 +16,8 @@
             <li class="dropdown"><a href="#"><span>Pejabat Tanah & Galian</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="/ptngmelaka">Pejabat Tanah & Galian Melaka</a></li>
-                  <li><a href="#">Pejabat Daerah & Tanah Alor Gajah</a></li>
-                  <li><a href="#">Pejabat Daerah & Tanah Melaka Tengah</a></li>
+                  <li><a href="/pdtag">Pejabat Daerah & Tanah Alor Gajah</a></li>
+                  <li><a href="/pdtmt">Pejabat Daerah & Tanah Melaka Tengah</a></li>
                   <li><a href="#">Pejabat Daerah & Tanah Jasin</a></li>
                 </ul>
               </li>

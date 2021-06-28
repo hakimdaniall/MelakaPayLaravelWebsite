@@ -7,8 +7,8 @@ MelakaPay
 @section('content')
 @include('header')
 
-
-<main>
+  
+<main id="main">
 <section class="breadcrumbs">
       <div class="container">
 
@@ -24,7 +24,6 @@ MelakaPay
     </section>
 
 
-</main>
 <section id="heroagencies" style="overflow: hidden" class="d-flex align-items-center">
 
 <div class="container">
@@ -47,5 +46,7 @@ MelakaPay
 
 </section><!-- End Hero -->
     
+</main>
+
 @include('footer')
 @endsection

@@ -34,11 +34,9 @@
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">App Features</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Gallery</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.melaka.gov.my/ms" target="_blank">Official Portal of the Melaka State Government</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://melaka.spab.gov.my/eApps/system/index.do" target="_blank">Pengurusan Aduan Awam</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://intranet.melaka.gov.my/" target="_blank">Intranet System</a></li>
             </ul>
           </div>
 

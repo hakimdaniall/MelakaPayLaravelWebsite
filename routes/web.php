@@ -34,14 +34,23 @@ Route::get('/faqs', function () {
     return view('faqs');
 });
 
-Route::get('/ptngmelaka', function () {
-    return view('agencies.ptngmelaka');
-});
-
 Route::get('/contact', function () {
     return view('contact');
 });
 
 Route::get('/agencies', function () {
     return view('agencies');
+});
+
+Route::get('/ptngmelaka', function () {
+    return view('agencies.ptngmelaka');
+});
+
+
+Route::get('/pdtag', function () {
+    return view('agencies.pdtag');
+});
+
+Route::get('/pdtmt', function () {
+    return view('agencies.pdtmt');
 });
