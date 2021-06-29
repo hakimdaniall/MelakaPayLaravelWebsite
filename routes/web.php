@@ -54,3 +54,27 @@ Route::get('/pdtag', function () {
 Route::get('/pdtmt', function () {
     return view('agencies.pdtmt');
 });
+
+Route::get('/pdtj', function () {
+    return view('agencies.pdtj');
+});
+
+Route::get('/mbmb', function () {
+    return view('agencies.mbmb');
+});
+
+Route::get('/mpag', function () {
+    return view('agencies.mpag');
+});
+
+Route::get('/mphtj', function () {
+    return view('agencies.mphtj');
+});
+
+Route::get('/mphtj', function () {
+    return view('agencies.mphtj');
+});
+
+Route::get('/mpj', function () {
+    return view('agencies.mpj');
+});

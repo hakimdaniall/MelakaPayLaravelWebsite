@@ -18,15 +18,15 @@
                   <li><a href="/ptngmelaka">Pejabat Tanah & Galian Melaka</a></li>
                   <li><a href="/pdtag">Pejabat Daerah & Tanah Alor Gajah</a></li>
                   <li><a href="/pdtmt">Pejabat Daerah & Tanah Melaka Tengah</a></li>
-                  <li><a href="#">Pejabat Daerah & Tanah Jasin</a></li>
+                  <li><a href="/pdtj">Pejabat Daerah & Tanah Jasin</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>Pihak Berkuasa Tempatan</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Majlis Bandaraya Melaka Bersejarah </a></li>
-                  <li><a href="#">Majlis Alor Gajah</a></li>
-                  <li><a href="#">Majlis Perbandaran Hang Tuah Jaya </a></li>
-                  <li><a href="#">Majlis Perbandaran Jasin</a></li>
+                  <li><a href="/mbmb">Majlis Bandaraya Melaka Bersejarah </a></li>
+                  <li><a href="/mpag">Majlis Perbandaran Alor Gajah</a></li>
+                  <li><a href="/mphtj">Majlis Perbandaran Hang Tuah Jaya </a></li>
+                  <li><a href="/mpj">Majlis Perbandaran Jasin</a></li>
                 </ul>
               </li>
               <li><a href="#">Tabung Amanah Pendidikan Negeri Melaka</a></li>
