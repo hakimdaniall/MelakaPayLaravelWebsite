@@ -78,3 +78,31 @@ Route::get('/mphtj', function () {
 Route::get('/mpj', function () {
     return view('agencies.mpj');
 });
+
+Route::get('/tapnm', function () {
+    return view('agencies.tapnm');
+});
+
+Route::get('/zakatmelaka', function () {
+    return view('agencies.zakatmelaka');
+});
+
+Route::get('/samb', function () {
+    return view('agencies.samb');
+});
+
+Route::get('/ukt', function () {
+    return view('agencies.ukt');
+});
+
+Route::get('/bksa', function () {
+    return view('agencies.bksa');
+});
+
+Route::get('/lpm', function () {
+    return view('agencies.lpm');
+});
+
+Route::get('/maim', function () {
+    return view('agencies.maim');
+});

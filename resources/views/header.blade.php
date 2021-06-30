@@ -29,13 +29,13 @@
                   <li><a href="/mpj">Majlis Perbandaran Jasin</a></li>
                 </ul>
               </li>
-              <li><a href="#">Tabung Amanah Pendidikan Negeri Melaka</a></li>
-              <li><a href="#">Zakat Melaka</a></li>
-              <li><a href="#">Syarikat Air Melaka Berhad</a></li>
-              <li><a href="#">Unit Kerajaan Tempatan  (UKA)</a></li>
-              <li><a href="#">Badan Kawal Selia Air (BKSA)</a></li>
-              <li><a href="#">Lembaga Perumahan Melaka (LPM)</a></li>
-              <li><a href="#">Majlis Agama Islam Melaka (MAIM)</a></li>
+              <li><a href="/tapnm">Tabung Amanah Pendidikan Negeri Melaka</a></li>
+              <li><a href="/zakatmelaka">Zakat Melaka</a></li>
+              <li><a href="/samb">Syarikat Air Melaka Berhad</a></li>
+              <li><a href="/ukt">Unit Kerajaan Tempatan  (UKT)</a></li>
+              <li><a href="/bksa">Badan Kawal Selia Air (BKSA)</a></li>
+              <li><a href="/lpm">Lembaga Perumahan Melaka (LPM)</a></li>
+              <li><a href="/maim">Majlis Agama Islam Melaka (MAIM)</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>User Manual</span> <i class="bi bi-chevron-down"></i></a>
