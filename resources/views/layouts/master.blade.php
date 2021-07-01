@@ -31,6 +31,7 @@
 </head>
 
 <body>
+    @include('message')
     @yield('content')
       <!-- Vendor JS Files -->
     <script src="{{asset('assets/vendor/aos/aos.js')}}"></script>

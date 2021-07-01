@@ -15,19 +15,34 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <form>
+                        @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+                        @if(Session::has('error'))
+                            <div class="alert alert-danger">
+                                {{Session::get('error')}}
+                            </div>
+                        @endif
+                        <form method="post" action="{{ route('user.loginprocess') }}">
+                            @csrf
                             <div class="input-group form-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
                                 </div>
-                                <input type="text" class="form-control" placeholder="username">
+                                <input type="text" class="form-control" placeholder="username" name="username">
                                 
                             </div>
                             <div class="input-group form-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
                                 </div>
-                                <input type="password" class="form-control" placeholder="password">
+                                <input type="password" class="form-control" placeholder="password" name="password">
                             </div>
                             <div class="row align-items-center remember">
                                 <input type="checkbox">Remember Me
