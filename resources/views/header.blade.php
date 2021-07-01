@@ -15,27 +15,27 @@
             <ul>
             <li class="dropdown"><a href="#"><span>Pejabat Tanah & Galian</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="/ptngmelaka">Pejabat Tanah & Galian Melaka</a></li>
-                  <li><a href="/pdtag">Pejabat Daerah & Tanah Alor Gajah</a></li>
-                  <li><a href="/pdtmt">Pejabat Daerah & Tanah Melaka Tengah</a></li>
-                  <li><a href="/pdtj">Pejabat Daerah & Tanah Jasin</a></li>
+                  <li><a href="{{ url('agency/ptgnm') }}">Pejabat Tanah & Galian Melaka</a></li>
+                  <li><a href="{{ url('agency/pdtag') }}">Pejabat Daerah & Tanah Alor Gajah</a></li>
+                  <li><a href="{{ url('agency/pdtmt') }}">Pejabat Daerah & Tanah Melaka Tengah</a></li>
+                  <li><a href="{{ url('agency/pdtj') }}">Pejabat Daerah & Tanah Jasin</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>Pihak Berkuasa Tempatan</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="/mbmb">Majlis Bandaraya Melaka Bersejarah </a></li>
-                  <li><a href="/mpag">Majlis Perbandaran Alor Gajah</a></li>
-                  <li><a href="/mphtj">Majlis Perbandaran Hang Tuah Jaya </a></li>
-                  <li><a href="/mpj">Majlis Perbandaran Jasin</a></li>
+                  <li><a href="{{ url('agency/mbmb') }}">Majlis Bandaraya Melaka Bersejarah </a></li>
+                  <li><a href="{{ url('agency/mpag') }}">Majlis Perbandaran Alor Gajah</a></li>
+                  <li><a href="{{ url('agency/mphtj') }}">Majlis Perbandaran Hang Tuah Jaya </a></li>
+                  <li><a href="{{ url('agency/mpj') }}">Majlis Perbandaran Jasin</a></li>
                 </ul>
               </li>
-              <li><a href="/tapnm">Tabung Amanah Pendidikan Negeri Melaka</a></li>
-              <li><a href="/zakatmelaka">Zakat Melaka</a></li>
-              <li><a href="/samb">Syarikat Air Melaka Berhad</a></li>
-              <li><a href="/ukt">Unit Kerajaan Tempatan  (UKT)</a></li>
-              <li><a href="/bksa">Badan Kawal Selia Air (BKSA)</a></li>
-              <li><a href="/lpm">Lembaga Perumahan Melaka (LPM)</a></li>
-              <li><a href="/maim">Majlis Agama Islam Melaka (MAIM)</a></li>
+              <li><a href="{{ url('agency/tapnm') }}">Tabung Amanah Pendidikan Negeri Melaka</a></li>
+              <li><a href="{{ url('agency/zakatmelaka') }}">Zakat Melaka</a></li>
+              <li><a href="{{ url('agency/samb') }}">Syarikat Air Melaka Berhad</a></li>
+              <li><a href="{{ url('agency/ukt') }}">Unit Kerajaan Tempatan  (UKT)</a></li>
+              <li><a href="{{ url('agency/bksa') }}">Badan Kawal Selia Air (BKSA)</a></li>
+              <li><a href="{{ url('agency/lpm') }}">Lembaga Perumahan Melaka (LPM)</a></li>
+              <li><a href="{{ url('agency/maim') }}">Majlis Agama Islam Melaka (MAIM)</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>User Manual</span> <i class="bi bi-chevron-down"></i></a>

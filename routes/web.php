@@ -35,10 +35,10 @@ Route::get('/agencies', function () {
     return view('agencies');
 });
 
-Route::name('agency.')->group(function () {
+Route::prefix('agency')->group(function () {
 
-    Route::get('/ptngm', function () {
-        return view('agencies.ptngmelaka');
+    Route::get('/ptgnm', function () {
+        return view('agencies.ptgnm');
     });
 
     Route::get('/pdtag', function () {
