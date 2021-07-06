@@ -48,7 +48,7 @@ class RegisterController extends Controller
             'phone_no' => $request->get('phone_no'),
         ]);
 
-        return view('index');
+        return back()->with('success', 'Thanks for your registration, we will get back to you soon!');
 
         // $user = User::create($user_data);
 
