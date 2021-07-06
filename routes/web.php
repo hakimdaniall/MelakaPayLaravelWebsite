@@ -6,13 +6,12 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/register', function () {
-    return view('register');
-});
+// Route::get('/register', 'RegisterController@register')->name('user.register');
+// Route::post('/registerprocess', 'RegisterController@registerprocess')->name('user.registerprocess');
 
-Route::get('/register2', function () {
-    return view('register2');
-});
+Route::get('/register', 'RegisterController@create')->name('register-user');
+Route::post('/register/user', 'RegisterController@store')->name('create-user');
+
 
 Route::get('/login', 'AuthController@login')->name('user.login');
 Route::post('/loginprocess', 'AuthController@loginprocess')->name('user.loginprocess');
