@@ -22,7 +22,7 @@ Route::name('users.')->prefix('users')->group(function () {
     });
 });
 
-Route::get('/profile', 'UserController@show');
+Route::get('/profile', 'UserController@UserProfile');
 
 Route::get('/faqs', function () {
     return view('faqs');

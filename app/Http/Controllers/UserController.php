@@ -9,7 +9,9 @@ use Illuminate\Support\Facades\Http;
 class UserController extends Controller
 {
 
-    public function show(){
+    public function UserProfile(){
+
+        return view('profile');
         // $user_data = Http::asForm()->post(env('API_URL').'/api/user?api_token=fXLu7VeYgXDu82SkMxlLPG1mCAXc4EBIx6O5isgYVIKFQiHah0xiOHmzNsBv', [
             
         //     'email' => $request->get('email'),
@@ -26,11 +28,11 @@ class UserController extends Controller
         //     'phone_no' => $request->get('phone_no'),
         // ]);
 
-        $response = Http::get(env('API_URL').'/api/user', [
-            'api_token' => 'fXLu7VeYgXDu82SkMxlLPG1mCAXc4EBIx6O5isgYVIKFQiHah0xiOHmzNsBv'
-        ]);
+        // $response = Http::get(env('API_URL').'/api/user', [
+        //     'api_token' => 'fXLu7VeYgXDu82SkMxlLPG1mCAXc4EBIx6O5isgYVIKFQiHah0xiOHmzNsBv'
+        // ]);
 
-        return redirect('profile'.$response);
+        // return redirect('profile'.$response);
     } 
     
 
