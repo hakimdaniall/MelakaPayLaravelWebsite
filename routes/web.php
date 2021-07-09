@@ -28,6 +28,11 @@ Route::get('/faqs', function () {
     return view('faqs');
 });
 
+Route::get('/userdashboard', function () {
+    return view('userdashboard');
+});
+
+
 Route::get('/forgotpassword', function (){
     return view('forgotpassword');
 });

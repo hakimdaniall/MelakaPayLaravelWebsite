@@ -699,3 +699,26 @@
   width: 400px;
   background-color: rgba(0,0,0,0.5) !important;
 }
+
+/* End of forgot section */
+
+/* User Dashboard Button */
+
+.pricing .link-btn {
+  background: #47536e;
+  display: block;
+  padding: 8px 30px;
+  /* border-radius: 20px; */
+  color: #fff;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  transition: 0.3s;
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+}
+
+.pricing .link-btn:hover {
+  background: #133272;
+}
