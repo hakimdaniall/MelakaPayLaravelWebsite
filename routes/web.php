@@ -28,6 +28,9 @@ Route::get('/faqs', function () {
     return view('faqs');
 });
 
+Route::get('/forgotpassword', function (){
+    return view('forgotpassword');
+});
 
 Route::get('/contact', function () {
     return view('contact');
