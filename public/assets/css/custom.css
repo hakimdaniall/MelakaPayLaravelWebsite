@@ -722,3 +722,11 @@
 .pricing .link-btn:hover {
   background: #133272;
 }
+
+.pricing .row .payment {
+  padding-top: 0%;
+}
+
+.pricing select{
+  font-family: "Raleway", sans-serif;
+}

@@ -112,3 +112,17 @@ Route::prefix('agency')->group(function () {
     });
 
 });
+
+// Payments 
+
+Route::prefix('payment')->group(function () {
+
+    Route::get('/oneoffpayment', function () {
+        return view('payments.oneoffpayment');
+    });
+
+    Route::get('/oneoffpayment2', function () {
+        return view('payments.oneoffpayment2');
+    });
+
+});

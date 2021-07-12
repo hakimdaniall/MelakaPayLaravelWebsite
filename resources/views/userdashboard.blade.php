@@ -33,13 +33,13 @@ MelakaPay
 
         <div class="row no-gutters d-flex justify-content-center">
 
-          <div class="col-lg-4 box" data-aos="fade-right">
+          <div class="col-lg-3 box align-self-center" data-aos="fade-right">
             <a href="#">Survey Question for eBayar users</a>
-            <a href="#" class="get-started-btn">My Profile</a>
+            <a href="/profile" class="get-started-btn">My Profile</a>
             <a href="#" class="get-started-btn">Log Out</a>
           </div>
 
-          <div class="col-lg-7 box" data-aos="fade-left">
+          <div class="col-lg-8 box" data-aos="fade-left">
             <div class="row">
                 <div class="col-md-4">
                     <h6>Bill Payment</h6>
