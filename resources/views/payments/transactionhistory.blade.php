@@ -44,7 +44,7 @@ MelakaPay
             <div class="row payment">
                 
                 <div class="col-md-12">
-                    <h6>To proceed with your bill payment, please select the account type and agency's name listed below.</h6>
+                    <h6>Select related agency below to view transaction.</h6>
                     <div class="row">
                         <div class="col-md-3 d-flex justify-content-left align-self-center">
                             <h6>Agency</h6>
@@ -68,20 +68,116 @@ MelakaPay
                          </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-3 d-flex justify-content-left align-self-center">
-                            <h6>Bill Payment Type</h6>
-                        </div>
-                        <div class="col-md-9">
-                        <div class="form-group">
-                            <select class="form-control" name="agency">
-                                <option class="hidden" selected disabled>Bill Payment Type</option>
-                                <option value="kedah">Pembayaran Borang  </option>
-                                <option value="perlis">Pembayaran Bil</option>
-                            </select>
-                         </div>
-                        </div>
-                    </div>
+                    <hr>
+
+                    <div class="table-wrapper d-flex justify-content-center">
+                      <table class="fl-table">
+                          <thead>
+                          <tr>
+                              <th>No.</th>
+                              <th>TxnID</th>
+                              <th>Account Number</th>
+                              <th>Account Holder Number</th>
+                              <th>Amount (RM)</th>
+                              <th>Payment Date & Time</th>
+                              <th>Status</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+                          <tr>
+                              <td>Content 1</td>
+                              <td>Content 1</td>
+                              <td>Content 1</td>
+                              <td>Content 1</td>
+                              <td>Content 1</td>
+                              <td>Content 1</td>
+                              <td>Content 1</td>
+                          </tr>
+                          <tr>
+                              <td>Content 2</td>
+                              <td>Content 2</td>
+                              <td>Content 2</td>
+                              <td>Content 2</td>
+                              <td>Content 2</td>
+                              <td>Content 2</td>
+                              <td>Content 2</td>
+                          </tr>
+                          <tr>
+                              <td>Content 3</td>
+                              <td>Content 3</td>
+                              <td>Content 3</td>
+                              <td>Content 3</td>
+                              <td>Content 3</td>
+                              <td>Content 3</td>
+                              <td>Content 3</td>
+                          </tr>
+                          <tr>
+                              <td>Content 4</td>
+                              <td>Content 4</td>
+                              <td>Content 4</td>
+                              <td>Content 4</td>
+                              <td>Content 4</td>
+                              <td>Content 4</td>
+                              <td>Content 4</td>
+                          </tr>
+                          <tr>
+                              <td>Content 5</td>
+                              <td>Content 5</td>
+                              <td>Content 5</td>
+                              <td>Content 5</td>
+                              <td>Content 5</td>
+                              <td>Content 5</td>
+                              <td>Content 5</td>
+                          </tr>
+                          <tr>
+                              <td>Content 6</td>
+                              <td>Content 6</td>
+                              <td>Content 6</td>
+                              <td>Content 6</td>
+                              <td>Content 6</td>
+                              <td>Content 6</td>
+                              <td>Content 6</td>
+                          </tr>
+                          <tr>
+                              <td>Content 7</td>
+                              <td>Content 7</td>
+                              <td>Content 7</td>
+                              <td>Content 7</td>
+                              <td>Content 7</td>
+                              <td>Content 7</td>
+                              <td>Content 7</td>
+                          </tr>
+                          <tr>
+                              <td>Content 8</td>
+                              <td>Content 8</td>
+                              <td>Content 8</td>
+                              <td>Content 8</td>
+                              <td>Content 8</td>
+                              <td>Content 8</td>
+                              <td>Content 8</td>
+                          </tr>
+                          <tr>
+                              <td>Content 9</td>
+                              <td>Content 9</td>
+                              <td>Content 9</td>
+                              <td>Content 9</td>
+                              <td>Content 9</td>
+                              <td>Content 9</td>
+                              <td>Content 9</td>
+                          </tr>
+                          <tr>
+                              <td>Content 10</td>
+                              <td>Content 10</td>
+                              <td>Content 10</td>
+                              <td>Content 10</td>
+                              <td>Content 10</td>
+                              <td>Content 10</td>
+                              <td>Content 10</td>
+                          </tr>
+                          
+                          <tbody>
+                      </table>
+                  </div>
                 </div>
             </div>
           </div>

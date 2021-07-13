@@ -125,4 +125,8 @@ Route::prefix('payment')->group(function () {
         return view('payments.oneoffpayment2');
     });
 
+    Route::get('/transactionhistory', function () {
+        return view('payments.transactionhistory');
+    });
+
 });
