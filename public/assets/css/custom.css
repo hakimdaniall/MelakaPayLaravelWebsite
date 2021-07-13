@@ -730,3 +730,53 @@
 .pricing select{
   font-family: "Raleway", sans-serif;
 }
+
+.pricing .pay-btn {
+  background: #47536e;
+  display: block;
+  padding: 8px 30px;
+  /* border-radius: 20px; */
+  color: #fff;
+  transition: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  transition: 0.3s;
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+  margin-right: 20px;
+}
+
+.pricing .back-btn {
+  background: #fff;
+  display: block;
+  padding: 8px 15px;
+  /* border-radius: 20px; */
+  color: #47536e;
+  transition: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  transition: 0.3s;
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+  margin-right: 10px;
+  border: #47536e solid 1px;
+}
+
+.pricing .back-btn:hover {
+  background: #47536e;
+  display: block;
+  padding: 8px 30px;
+  /* border-radius: 20px; */
+  color: #fff;
+  transition: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  transition: 0.3s;
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+  margin-right: 20px;
+  border: #47536e solid 1px;
+}
