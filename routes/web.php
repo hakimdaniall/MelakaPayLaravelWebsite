@@ -129,4 +129,13 @@ Route::prefix('payment')->group(function () {
         return view('payments.transactionhistory');
     });
 
+    Route::get('/favourite', function () {
+        return view('payments.favourite');
+    });
+
+    Route::get('/editfavourite', function () {
+        return view('payments.editfavourite');
+    });
+
+
 });
